@@ -1,0 +1,71 @@
+LINEAR CRESCENTE: µA(x) = (x - x1)/(x2 - x1)
+LINEAR DECRESCENTE: µB(x) = (x2- x)/(x2 - x1)
+
+1-
+
+coca forte
+Se x < 50 então 0
+Se 50 <= x < 52 então 1
+Se 52 <= x <= 54 então (54-x)/(54-52)
+Se x > 54 então 0
+
+
+coca suave
+se x  < 52 entao 0
+se 52 <= x <= 54 entao (x-52)/(54-52)
+se 54 < x < 56 entao 1
+se 56 <= x <= 58 entao (58-x)/(58-56)
+se x  > 58 entao 0
+
+coca fraco
+se x  < 56 entao 0
+se 58 < x <= 60 entao 1
+se 56 <= x <= 58 entao (x-56)/(58-56)
+se x  > 60 entao 0
+
+
+
+pepsi forte
+Se x < 60 então 0
+Se 60 <= x < 62 então 1
+Se 62 <= x <= 64 então (64-x)/(64-62)
+Se x > 64 então 0
+
+pepsi suave
+se x  < 62 entao 0
+se 62 <= x <= 64 entao (x-62)/(64-62)
+se 64 < x < 66 entao 1
+se 66 <= x <= 68 entao (68-x)/(68-66)
+se x  > 68 entao 0
+
+pepsi fraco
+se x  < 66 entao 0
+se 68 < x <= 70 entao 1
+se 66 <= x <= 68 entao (x-66)/(68-66)
+se x  > 70 entao 0
+
+
+
+run forte
+Se x < 10 então 0
+Se 10 <= x < 15 então 1
+Se 15 <= x <= 20 então (20-x)/(20-15)
+Se x > 20 então 0
+
+run suave
+se x  < 15 entao 0
+se 15 <= x <= 20 entao (x-15)/(20-15)
+se 20 < x < 25 entao 1
+se 25 <= x <= 27 entao (27-x)/(27-25)
+se x > 27 entao 0
+
+run fraco
+se x  < 23 entao 0
+se 28 < x <= 30 entao 1
+se 23 <= x <= 28 entao (x-23)/(28-23)
+se x  > 30 entao 0
+
+gelo
+se x < 20 entao 0
+se x = 20 entao 1
+se x > 20 entao 0 
